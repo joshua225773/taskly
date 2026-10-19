@@ -3,8 +3,8 @@
 Taskly is a simple web app where people sign up, log in and manage their own to-do tasks.
 It solves the problem of scattered to-dos by giving each user a private, searchable-by-page task list they can reach from any device.
 
-**Live app:** _add your Vercel link here_
-**API:** _add your Render link here_
+**Live app:** https://taskly-nu-bay.vercel.app
+**API:** https://taskly-ar85.onrender.com
 
 ## Features
 - Register and log in (passwords hashed with bcrypt, JWT login token)
@@ -61,7 +61,13 @@ npm run dev              # http://localhost:5173
 | DELETE /api/tasks/:id | Delete task | Yes |
 
 ## Screenshots
-_Add screenshots of Login, Register, Tasks (desktop and mobile) here._
+![Login](screenshots/login.png)
+
+![Register](screenshots/register.png)
+
+![Tasks](screenshots/tasks.png)
+
+![Mobile view](screenshots/mobile_login.png)
 
 ## Known limitations / future work
 - No password reset or email verification
